@@ -5,11 +5,11 @@ import ctypes
 
 breaks 			= 0  # Num of breaks token 
 max_breaks 		= input ("Enter the  max num of breaks you can take today :  ")  # Num of max breaks you can take 
-BREAK_PERIOD_IN_HOURS	= input ("Enter the break period in Hours ") # BREAK Period 
+BREAK_PERIOD_IN_HOURS	= input ("Enter the break period in Hours : ") # BREAK Period 
 BREAK_PERIOD_IN_SECONDS = BREAK_PERIOD_IN_HOURS * 3600
-ROUND_PERIOD_IN_HOURS   = input ("Enter the work round period in Hours ") # Work Period 
+ROUND_PERIOD_IN_HOURS   = input ("Enter the work round period in Hours : ") # Work Period 
 ROUND_PERIOD_IN_SECONDS	= ROUND_PERIOD_IN_HOURS * 3600
-BREAK_MUSIC_LINK 	= "https://soundcloud.com/ayman-memo/bkf1tni5eixt"
+BREAK_MUSIC_LINK 	= raw_input(" Enter your favourite music link :) : ")
 MessageBox 		= ctypes.windll.user32.MessageBoxA
 
 print "Start Working ^_^ "
