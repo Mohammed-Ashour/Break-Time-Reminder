@@ -20,6 +20,6 @@ while (breaks < max_breaks):
 		webbrowser.open(BREAK_MUSIC_LINK, new=1, autoraise=True)
 		time.sleep(BREAK_PERIOD_IN_SECONDS)
 		breaks += 1 
-	
+
 
 	
